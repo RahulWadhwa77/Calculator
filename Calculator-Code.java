@@ -14,7 +14,7 @@ public class Calculator implements ActionListener {
 	Calculator(){
 		JFrame f = new JFrame("Calculator");
 		
-		//adding buttons.
+		//creating buttons.
 		b1 = new JButton("1");
 		b2 = new JButton("2");
 		b3 = new JButton("3");
@@ -34,7 +34,7 @@ public class Calculator implements ActionListener {
 		bClr = new JButton("C");
 		bBck = new JButton("<-");
 		
-		
+		//creating text-field
 		tf = new JTextField();
 		tf.setBounds(20, 20, 160, 30); bBck.setBounds(190, 20, 50, 30);
 		f.add(tf); f.add(bBck);
