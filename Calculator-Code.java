@@ -36,6 +36,8 @@ public class Calculator implements ActionListener {
 		
 		//creating text-field
 		tf = new JTextField();
+		
+		//setting bounds of buttons and adding them to frame.
 		tf.setBounds(20, 20, 160, 30); bBck.setBounds(190, 20, 50, 30);
 		f.add(tf); f.add(bBck);
 		
