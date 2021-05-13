@@ -12,6 +12,7 @@ public class Calculator implements ActionListener {
 	double res = 0;
 	
 	Calculator(){
+		
 		JFrame f = new JFrame("Calculator");
 		
 		//creating buttons.
