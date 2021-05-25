@@ -1,0 +1,33 @@
+.component-button {
+    display: inline-flex;
+    width: 25%;
+    flex: 1 0 auto;
+  }
+  
+  .component-button.wide {
+    width: 50%;
+  }
+  
+  .component-button button {
+    background-color: #fdfbfb;
+    border: 0;
+    font-size: 1rem;
+    margin: 3px 3px 0 0px;
+    flex: 1 0 auto;
+    padding: 0;
+  }
+  
+  .component-button.orange button {
+    background-color: #f53e6c;
+    color: white;
+  }
+  .component-button.orange button:hover{
+    background-color: #724014;
+  }
+
+  .component-button button:hover{
+    cursor: pointer;
+    background-color: #f5923e;
+  }
+
+  
